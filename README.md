@@ -17,7 +17,9 @@ pip install nbdev_hello_world
 Fill me in please! Don’t forget code examples:
 
 ``` python
-1+1
+from fastcore.test import *
 ```
 
-    2
+``` python
+test_eq(say_hello("Hamel"), "Hello Hamel!")
+```

@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://meheller.github.io',
                 'git_url': 'https://github.com/meheller/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')},
+            'nbdev_hello_world.myModule': { 'nbdev_hello_world.myModule.foo': ('core.html#foo', 'nbdev_hello_world/myModule.py'),
+                                            'nbdev_hello_world.myModule.say_hello': ( 'core.html#say_hello',
+                                                                                      'nbdev_hello_world/myModule.py')}}}
